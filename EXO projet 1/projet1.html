@@ -19,17 +19,21 @@
              </ul>
         </nav>
     </header>
-    <h1 class="forma">FORMATION POUR DEVENIR UN DEVELOPPEUR FULL STACK</h1>
-    <article>
+    <main>
+        <aside>CV</aside>
+        <section>Travail</section>
+        <article>about</article>
+        <figure>contact</figure>
+        <h1 class="forma" id="forma">FORMATION POUR DEVENIR UN DEVELOPPEUR FULL STACK</h1>
              <h1 style="color: #df7c6d;">Tuto pour les cours</h1>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Y80juYcu3ZI?si=G05sTubsSvrGpjX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <br><a href="Index.HTML">Ceci méne à la page Index</a>
+        <br>
         <h1 style="color: #f8cac3;">Les compétences pour un developpeur Full Stack</h1>
             <table border="1px">
                 <tr style="color: #c06153;">
-                    <td>BackEnd</td>
-                    <td>FrontEnd</td>
-                    <td>DataBase</td>
+                    <th>BackEnd</th>
+                    <th>FrontEnd</th>
+                    <th>DataBase</th>
                 </tr>
                 <tr>
                     <td>HTML</td>
@@ -57,41 +61,43 @@
                     <td>Kafka</td>
                 </tr>
             </table>
-    </article>
-    <aside>
-
-    </aside>
-    <footer></footer>
+    
     <h1 style="color: #e6bbd0;" >Formulaire</h1>
     <form action="formulaire.PHP" method="post">
     <fieldset>
         <legend>Informations Personnelles</legend>
-        <label for="Prenom">Entrer votre Prénom</label>
-        <input type="text" name="Prenom" id="Prenom"><br>
+        <label for="Prenom">Prénom</label>
+        <input type="text" name="Prenom" id="Prenom" placeholder="Tapez votre prénom"><br>
 
-        <label for="Nom">Entrer votre Nom</label>
-        <input type="text" name="Nom" id="Nom"><br>
+        <label for="Nom">Nom</label>
+        <input type="text" name="Nom" id="Nom" placeholder="tapez votre Nom"><br>
 
-        <label for="123456789">Entrer votre Numero</label>
-        <input type="tel" name="123456789" id="123456789"><br>
+        <label for="123456789">Numero</label>
+        <input type="tel" name="123456789" id="123456789" placeholder="tapez votre numéro"><br>
 
-        <label for="mail"> Votre email</label>
-        <input type="email" name="email" id="mail"><br>
+        <label for="mail"> Email</label>
+        <input type="email" name="email" id="mail" placeholder="exemple@gmail.com"><br>
 
-        <label for="anniversaire">Entrer votre date de naissance</label>
-        <input type="date" name="Anniversaire" id="anniversaire"><br>
+        <label for="anniversaire">Naissance</label>
+        <input type="date" name="Anniversaire" id="anniversaire" placeholder="Tapez votre date de naissaice"><br>
 
         <label for="motivation"> Ce qui vous motive</label>
         <textarea name="motivation" id="motivation"></textarea><br>
-        <select name="Pays" id="Pays"> Votre Pays
+        <label for="pays">Votre Pays </label>
+        <select name="Pays" id="Pays"> 
             <option value="">Senegal</option>
             <option value="">Tunisie</option>
             <option value="">Maroc</option>
             <option value="">lybie</option>
-        </select>
+        </select><br>
     
         <input type="submit" value="Envoyer">
     </fieldset>
-    </form>
+    </form><br>
+    <a href="#forma">Titre de page</a>
+</main>
+    <footer>
+     Copyright #copy
+    </footer>
 </body>
 </html>
