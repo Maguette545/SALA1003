@@ -1,0 +1,28 @@
+.container{
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.col-4{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.text{
+    text-align: center;
+    color: goldenrod;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+input{
+    padding: 10px;
+    height: 50px;
+    width: 400px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
