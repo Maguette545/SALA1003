@@ -1,0 +1,51 @@
+body{
+background-color: rgba(215, 221, 236, 0.966);
+}
+.nav{
+  background-color: rgb(223, 100, 59);
+    width: 100%;
+   
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    list-style: none;
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*   partie main   */
+
+.section{
+    border: 2px solid black;
+    margin: 7px;
+}
+img{
+    
+    width: 50%;
+    height: 350px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+input,select,textarea{
+    margin: 5px;
+}
+input{
+    padding: 15px;
+    width: 500px;
+    text-align: justify;
+}
+footer{
+    background-color: cadetblue;
+    width: 100%;
+    height: 5%;
+    margin-top: 2%;
+}
+    
